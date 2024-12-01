@@ -1,23 +1,119 @@
-Desember adalah bulan yang penuh makna dan menjadi momen spesial untuk menutup tahun dengan berbagai kesan. Banyak orang memanfaatkan bulan ini untuk refleksi, merayakan pencapaian, dan merencanakan langkah ke depan. Tak heran, Desember sering disebut sebagai bulan perayaan dan harapan.
+Lagu 'APT' yang dinyanyikan Rose feat Bruno Mars trending di media sosial hingga Youtube. Lagu APT telah digunakan sebagai music latar video Reels Instagram sebanyak 75,9 ribu kali per 23 Oktober 2024.
+Sedangakan di TikTok sudah digunakan sebanyak 243,7 ribu kali. Sedangkan di Youtube milik Rose, lagu APT tonton sebanyak 97 juta kali.
 
-Mengapa Desember Begitu Spesial?
-Perayaan Liburan
-Desember identik dengan liburan akhir tahun, seperti Natal dan Tahun Baru. Orang-orang sibuk menghias rumah, berbagi hadiah, dan merayakan kebersamaan dengan keluarga. Hal ini menjadikan Desember salah satu bulan dengan suasana paling hangat.
+Lagu APT terinspirasi dari Apartemen Game dan menceritakan pasangan yang sedang jatuh cinta. Berikut ini lirik lagu APT oleh Rose feat Bruno Mars lengkap dengan terjemahan.
 
-Diskon dan Promo Besar-besaran
-Bulan ini juga menjadi surganya belanja dengan hadirnya promo besar seperti Harbolnas (Hari Belanja Online Nasional). Tidak hanya meningkatkan daya beli, tetapi juga memberikan peluang besar bagi bisnis untuk meningkatkan penjualan.
 
-Waktu Refleksi dan Resolusi
-Di penghujung tahun, Desember adalah waktu yang tepat untuk mengevaluasi perjalanan hidup sepanjang tahun. Ini juga momen untuk menyusun resolusi baru agar tahun depan lebih baik.
+Baca juga:
+Lirik dan Terjemahan Lagu Basket Case-Green Day
+아파트 아파트 (Apateu, apateu)
+(Apartemen, apartemen)
+아파트 아파트 (Apateu, apateu)
+(Apartemen, apartemen)
+아파트 아파트 (Apateu, apateu)
+(Apartemen, apartemen)
+Uh, uh huh uh huh
 
-Tips Memanfaatkan Desember untuk Kesuksesan
-Rencanakan Liburan dengan Bijak
-Jangan biarkan Desember hanya berlalu dengan kesibukan. Luangkan waktu untuk beristirahat dan mengisi energi untuk menghadapi tahun baru.
+아파트 아파트 (Apateu, apateu)
+(Apartemen, apartemen)
+아파트 아파트 (Apateu, apateu)
+(Apartemen, apartemen)
+아파트 아파트 (Apateu, apateu)
+(Apartemen, apartemen)
+Uh, uh huh uh huh
 
-Manfaatkan Momentum Promo Akhir Tahun
-Jika Anda memiliki bisnis, inilah saatnya memaksimalkan pemasaran. Gunakan strategi SEO dengan kata kunci seperti “promo akhir tahun,” “diskon Desember,” atau “kado Natal terbaik.”
+It's whatever it's whatever it's whatever you like
+(Terserah apa yang kau suka, bebas saja maunya apa)
+Turn this 아파트 (apateu) into a club
+(Ubah apartemen ini jadi club)
+I'm talking drink, dance, smoke, freak, party all night
+(Minum, dansa, merokok, bersenang-senang sampai pagi)
+건배 건배 (Geonbae, geonbae) girl what's up
+Oh oh oh
+(Toast, toast (bersulang), Ayo bergabung)
+Don't you want me like I want you, baby
+(Apakah kau tidak menginginkanku seperti aku menginginkanmu?)
+Don't you need me like I need you now
+(Apakah kau tidak membutuhkanku seperti aku membutuhkanmu sekarang?)
+Sleep tomorrow but tonight go crazy
+(Tidurnya besok saja malam ini kita senang senang)
+All you gotta do is just meet me at the
+(Yang perlu kau lakukan hanyalah temui aku di)
 
-Ciptakan Resolusi yang Realistis
-Mulailah dari hal kecil. Resolusi yang sederhana namun konsisten akan memberikan dampak besar di tahun mendatang.
+아파트 아파트 (Apateu, apateu)
+(Apartemen, apartemen)
+아파트 아파트 (Apateu, apateu)
+(Apartemen, apartemen)
+아파트 아파트 (Apateu, apateu)
+(Apartemen, apartemen)
+Uh, uh huh uh huh
 
-Desember bukan hanya tentang menutup tahun, tetapi juga mempersiapkan awal yang baru. Gunakan bulan ini untuk memaksimalkan peluang, baik dalam kehidupan pribadi maupun profesional Anda
+아파트 아파트 (Apateu, apateu)
+(Apartemen, apartemen)
+아파트 아파트 (Apateu, apateu)
+(Apartemen, apartemen)
+아파트 아파트 (Apateu, apateu)
+(Apartemen, apartemen)
+Uh, uh huh uh huh
+
+Hey so now you know the game Are you ready?
+(Hey, sekarang kau tahu permainanya, Apakah kau siap?)
+Cause I'm comin to get ya. get ya, get ya
+(Karena aku akan datang menjemputmu)
+Hold on, hold on
+(Tunggu, tunggu)
+I'm on my way
+(Aku sedang dalam perjalanan)
+Yeah yeah yeah yeah yeah
+
+Baca juga:
+Lirik Lagu Gara-gara Sebotol Minuman yang Viral di TikTok hingga Instagram
+I'm on my way
+(Aku sedang dalam perjalanan)
+Hold on, hold on
+(Tunggu, tunggu)
+I'm on my way
+(Aku sedang dalam perjalanan)
+Yeah yeah yeah yeah yeah I'm on my way
+Don't you want me like I want you, baby
+(Apakah kau tidak menginginkanku seperti aku menginginkanmu?)
+Don't you need me like I need you now
+(Apakah kau tidak membutuhkanku seperti aku membutuhkanmu sekarang?)
+Sleep tomorrow but tonight go crazy
+(Tidurnya besok saja malam ini kita senang senang)
+All you gotta do is just meet me at the
+(Yang perlu kau lakukan hanyalah temui aku di)
+
+아파트 아파트 (Apateu, apateu)
+(Apartemen, apartemen)
+아파트 아파트 (Apateu, apateu)
+(Apartemen, apartemen)
+아파트 아파트 (Apateu, apateru)
+(Apartemen, apartemen)
+Just meet me at the (Uh huh uh huh)
+(Bertemu saja denganku di (Uh -huh)
+
+아파트 아파트 (Apateu, apateu)
+(Apartemen, apartemen)
+아파트 아파트 (Apateu, apateu)
+(Apartemen, apartemen)
+아파트 아파트 (Apateu, apateru)
+(Apartemen, apartemen)
+Just meet me at the (Uh huh uh huh)
+(Bertemu saja denganku di (Uh -huh)
+
+아파트 아파트 (Apateu, apateu)
+(Apartemen, apartemen)
+아파트 아파트 (Apateu, apateu)
+(Apartemen, apartemen)
+아파트 아파트 (Apateu, apateru)
+(Apartemen, apartemen)
+Just meet me at the (Uh huh uh huh)
+(Bertemu saja denganku di (Uh -huh)
+
+아파트 아파트 (Apateu, apateu)
+(Apartemen, apartemen)
+아파트 아파트 (Apateu, apateu)
+
+아파트 아파트 (Apateu, apateu)
+Uh, uh huh uh huh
