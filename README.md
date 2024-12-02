@@ -1,119 +1,38 @@
-Lagu 'APT' yang dinyanyikan Rose feat Bruno Mars trending di media sosial hingga Youtube. Lagu APT telah digunakan sebagai music latar video Reels Instagram sebanyak 75,9 ribu kali per 23 Oktober 2024.
-Sedangakan di TikTok sudah digunakan sebanyak 243,7 ribu kali. Sedangkan di Youtube milik Rose, lagu APT tonton sebanyak 97 juta kali.
+Desember sering kali menjadi bulan refleksi, perayaan, dan kenangan, tetapi juga menyimpan berbagai kisah tragis yang mengubah sejarah atau meninggalkan kesan mendalam. Berikut beberapa peristiwa tragis yang terjadi pada bulan Desember: https://bit.ly/infopalingakurat
 
-Lagu APT terinspirasi dari Apartemen Game dan menceritakan pasangan yang sedang jatuh cinta. Berikut ini lirik lagu APT oleh Rose feat Bruno Mars lengkap dengan terjemahan.
-
-
-Baca juga:
-Lirik dan Terjemahan Lagu Basket Case-Green Day
-아파트 아파트 (Apateu, apateu)
-(Apartemen, apartemen)
-아파트 아파트 (Apateu, apateu)
-(Apartemen, apartemen)
-아파트 아파트 (Apateu, apateu)
-(Apartemen, apartemen)
-Uh, uh huh uh huh
-
-아파트 아파트 (Apateu, apateu)
-(Apartemen, apartemen)
-아파트 아파트 (Apateu, apateu)
-(Apartemen, apartemen)
-아파트 아파트 (Apateu, apateu)
-(Apartemen, apartemen)
-Uh, uh huh uh huh
-
-It's whatever it's whatever it's whatever you like
-(Terserah apa yang kau suka, bebas saja maunya apa)
-Turn this 아파트 (apateu) into a club
-(Ubah apartemen ini jadi club)
-I'm talking drink, dance, smoke, freak, party all night
-(Minum, dansa, merokok, bersenang-senang sampai pagi)
-건배 건배 (Geonbae, geonbae) girl what's up
-Oh oh oh
-(Toast, toast (bersulang), Ayo bergabung)
-Don't you want me like I want you, baby
-(Apakah kau tidak menginginkanku seperti aku menginginkanmu?)
-Don't you need me like I need you now
-(Apakah kau tidak membutuhkanku seperti aku membutuhkanmu sekarang?)
-Sleep tomorrow but tonight go crazy
-(Tidurnya besok saja malam ini kita senang senang)
-All you gotta do is just meet me at the
-(Yang perlu kau lakukan hanyalah temui aku di)
-
-아파트 아파트 (Apateu, apateu)
-(Apartemen, apartemen)
-아파트 아파트 (Apateu, apateu)
-(Apartemen, apartemen)
-아파트 아파트 (Apateu, apateu)
-(Apartemen, apartemen)
-Uh, uh huh uh huh
-
-아파트 아파트 (Apateu, apateu)
-(Apartemen, apartemen)
-아파트 아파트 (Apateu, apateu)
-(Apartemen, apartemen)
-아파트 아파트 (Apateu, apateu)
-(Apartemen, apartemen)
-Uh, uh huh uh huh
-
-Hey so now you know the game Are you ready?
-(Hey, sekarang kau tahu permainanya, Apakah kau siap?)
-Cause I'm comin to get ya. get ya, get ya
-(Karena aku akan datang menjemputmu)
-Hold on, hold on
-(Tunggu, tunggu)
-I'm on my way
-(Aku sedang dalam perjalanan)
-Yeah yeah yeah yeah yeah
-
-Baca juga:
-Lirik Lagu Gara-gara Sebotol Minuman yang Viral di TikTok hingga Instagram
-I'm on my way
-(Aku sedang dalam perjalanan)
-Hold on, hold on
-(Tunggu, tunggu)
-I'm on my way
-(Aku sedang dalam perjalanan)
-Yeah yeah yeah yeah yeah I'm on my way
-Don't you want me like I want you, baby
-(Apakah kau tidak menginginkanku seperti aku menginginkanmu?)
-Don't you need me like I need you now
-(Apakah kau tidak membutuhkanku seperti aku membutuhkanmu sekarang?)
-Sleep tomorrow but tonight go crazy
-(Tidurnya besok saja malam ini kita senang senang)
-All you gotta do is just meet me at the
-(Yang perlu kau lakukan hanyalah temui aku di)
-
-아파트 아파트 (Apateu, apateu)
-(Apartemen, apartemen)
-아파트 아파트 (Apateu, apateu)
-(Apartemen, apartemen)
-아파트 아파트 (Apateu, apateru)
-(Apartemen, apartemen)
-Just meet me at the (Uh huh uh huh)
-(Bertemu saja denganku di (Uh -huh)
-
-아파트 아파트 (Apateu, apateu)
-(Apartemen, apartemen)
-아파트 아파트 (Apateu, apateu)
-(Apartemen, apartemen)
-아파트 아파트 (Apateu, apateru)
-(Apartemen, apartemen)
-Just meet me at the (Uh huh uh huh)
-(Bertemu saja denganku di (Uh -huh)
-
-아파트 아파트 (Apateu, apateu)
-(Apartemen, apartemen)
-아파트 아파트 (Apateu, apateu)
-(Apartemen, apartemen)
-아파트 아파트 (Apateu, apateru)
-(Apartemen, apartemen)
-Just meet me at the (Uh huh uh huh)
-(Bertemu saja denganku di (Uh -huh)
-
-아파트 아파트 (Apateu, apateu)
-(Apartemen, apartemen)
-아파트 아파트 (Apateu, apateu)
-
-아파트 아파트 (Apateu, apateu)
-Uh, uh huh uh huh
+1. Bencana Tsunami Samudra Hindia (26 Desember 2004)
+Apa yang Terjadi: Gempa bumi berkekuatan 9,1–9,3 magnitudo di bawah laut Samudra Hindia memicu tsunami dahsyat yang melanda pantai di 14 negara, termasuk Indonesia, Thailand, Sri Lanka, dan India.
+Dampak:
+Lebih dari 230.000 orang meninggal.
+Provinsi Aceh di Indonesia menjadi daerah yang paling terdampak dengan ribuan korban jiwa.
+Kehancuran besar-besaran di sepanjang pantai.
+Pelajaran: Peristiwa ini meningkatkan kesadaran global tentang pentingnya sistem peringatan dini bencana tsunami.
+2. Pembunuhan John Lennon (8 Desember 1980)
+Apa yang Terjadi: John Lennon, mantan anggota band legendaris The Beatles, ditembak mati oleh penggemarnya sendiri, Mark David Chapman, di depan apartemennya di New York City.
+Dampak:
+Dunia musik kehilangan salah satu ikon terbesar.
+Peristiwa ini memicu diskusi tentang kesehatan mental dan pengamanan bagi selebritas.
+Kenangan: Lagu-lagu Lennon, seperti Imagine, tetap menjadi simbol perdamaian hingga saat ini.
+3. Pengeboman Pearl Harbor (7 Desember 1941)
+Apa yang Terjadi: Angkatan Laut Kekaisaran Jepang melancarkan serangan mendadak ke pangkalan militer Amerika Serikat di Pearl Harbor, Hawaii.
+Dampak:
+Lebih dari 2.400 orang meninggal.
+Amerika Serikat memasuki Perang Dunia II setelah serangan ini.
+Pelajaran: Peristiwa ini menunjukkan betapa pentingnya kewaspadaan militer bahkan dalam masa damai.
+4. Tragedi Stadion Lima, Peru (24 Desember 1954)
+Apa yang Terjadi: Kericuhan terjadi selama pertandingan sepak bola antara Alianza Lima dan Club Universitario. Polisi melepaskan gas air mata ke penonton, yang memicu kepanikan.
+Dampak:
+Lebih dari 300 orang meninggal akibat terinjak-injak.
+Tragedi ini menjadi salah satu insiden stadion sepak bola paling mematikan dalam sejarah.
+5. Kebakaran Diskotik Cocoanut Grove (28 Desember 1942)
+Apa yang Terjadi: Kebakaran besar terjadi di diskotik Cocoanut Grove, Boston, AS.
+Dampak:
+492 orang tewas, menjadikannya salah satu kebakaran paling mematikan di tempat hiburan malam.
+Peristiwa ini menyebabkan reformasi besar dalam peraturan keselamatan kebakaran di tempat umum.
+6. Tragedi Pembantaian My Lai (16 Desember 1969)
+Apa yang Terjadi: Pada bulan Desember 1969, pembantaian warga sipil di desa My Lai, Vietnam, selama Perang Vietnam, terungkap ke publik.
+Dampak:
+Dunia terguncang oleh kekejaman yang dilakukan militer AS.
+Tragedi ini memperburuk sentimen anti-perang di Amerika Serikat.
+Refleksi
+Meski bulan Desember sering diasosiasikan dengan akhir tahun yang penuh harapan, kisah-kisah tragis ini mengingatkan kita bahwa sejarah manusia penuh dengan perjuangan dan pelajaran. Tetap penting untuk menghormati kenangan mereka yang telah menjadi korban dan terus berupaya mencegah tragedi serupa di masa depan.
