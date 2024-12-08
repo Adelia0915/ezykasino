@@ -32,6 +32,12 @@
             font-size: 18px;
             margin-bottom: 30px;
         }
+        .button-container {
+            display: flex;
+            flex-direction: column; /* Atur tombol agar berjejer ke bawah */
+            align-items: center;    /* Pusatkan tombol */
+            gap: 15px;              /* Jarak antar tombol */
+        }
         .button {
             background-color: #000000;
             color: white;
@@ -43,7 +49,7 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            margin: 10px;
+            width: 200px;          /* Atur lebar tombol */
         }
         .button:hover {
             background-color: #ffff00;
@@ -67,7 +73,7 @@
 <body>
     <h1>Selamat Datang Di Ezykasino, Website Terbaik 2025</h1>
     <p>Klik tombol di bawah untuk melanjutkan.</p>
-    <div id="button-container"></div> <!-- Kontainer untuk tombol -->
+    <div class="button-container" id="button-container"></div> <!-- Kontainer untuk tombol -->
 
     <script>
         // Array tombol baru
