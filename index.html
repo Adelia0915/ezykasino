@@ -12,84 +12,6 @@
     <meta name="author" content="Nama Kamu">
     <meta name="robots" content="index, follow">
 
-    <!-- Metadata Sosial (Open Graph) -->
-    <meta property="og:title" content="Ezykasino adalah Website Terbaik 2025">
-    <meta property="og:description" content="Website terbaik 2025 dengan tombol direct link yang menarik dan efek salju yang memukau. Klik tombol untuk menjelajah lebih jauh!">
-    <meta property="og:image" content="https://i.ibb.co/mJZbtC1/SKATER-HITAM-PG.webp">
-    <meta property="og:url" content="https://bit.ly/Biolinkezykasino333">
-    <meta property="og:type" content="website">
-
-    <!-- Metadata Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Ezykasino adalah Website Terbaik 2025">
-    <meta name="twitter:description" content="Website terbaik 2025 dengan tombol direct link dan efek salju yang keren. Klik tombol untuk melanjutkan!">
-    <meta name="twitter:image" content="https://i.ibb.co/mJZbtC1/SKATER-HITAM-PG.webp">
-
-    <!-- Schema Markup untuk WebPage -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "Ezykasino adalah Website Terbaik 2025",
-      "description": "Ezykasino adalah website terbaik di tahun 2025 dengan tombol direct link dan efek salju interaktif.",
-      "url": "https://bit.ly/Biolinkezykasino333",
-      "image": "https://i.ibb.co/mJZbtC1/SKATER-HITAM-PG.webp",
-      "mainEntityOfPage": "https://bit.ly/Biolinkezykasino333",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Ezykasino",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://i.ibb.co/mJZbtC1/SKATER-HITAM-PG.webp"
-        }
-      }
-    }
-    </script>
-
-    <!-- Schema Markup untuk Organization -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Ezykasino",
-      "url": "https://bit.ly/Biolinkezykasino333",
-      "logo": "https://i.ibb.co/mJZbtC1/SKATER-HITAM-PG.webp",
-      "sameAs": [
-        "https://twitter.com/username",
-        "https://www.facebook.com/username",
-        "https://www.linkedin.com/in/username"
-      ],
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+1-800-123-4567",
-        "contactType": "Customer Service",
-        "areaServed": "US",
-        "availableLanguage": "English"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "123 Example St",
-        "addressLocality": "City",
-        "addressRegion": "State",
-        "postalCode": "12345",
-        "addressCountry": "US"
-      }
-    }
-    </script>
-
-    <!-- Schema Markup untuk ImageObject -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ImageObject",
-      "url": "https://i.ibb.co/mJZbtC1/SKATER-HITAM-PG.webp",
-      "height": "800",
-      "width": "1200",
-      "caption": "Deskripsi gambar yang relevan",
-      "contentUrl": "https://i.ibb.co/mJZbtC1/SKATER-HITAM-PG.webp"
-    }
-    </script>
-
     <!-- Styling -->
     <style>
         body {
@@ -121,6 +43,7 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            margin: 10px;
         }
         .button:hover {
             background-color: #ffff00;
@@ -144,9 +67,30 @@
 <body>
     <h1>Selamat Datang Di Ezykasino, Website Terbaik 2025</h1>
     <p>Klik tombol di bawah untuk melanjutkan.</p>
-    <a href="https://bit.ly/Biolinkezykasino333" target="_blank" class="button">Klik di Sini</a>
+    <div id="button-container"></div> <!-- Kontainer untuk tombol -->
 
     <script>
+        // Array tombol baru
+        const buttons = [
+            { text: "MAINKAN DISINI", link: "https://bit.ly/websiteterbaiknomor1" },
+            { text: "WHATSAPP", link: "https://wa.me/+6281218357690" },
+            { text: "BONUS 100% BOLA", link: "https://bit.ly/freechipdanbonus100" },
+            { text: "TIKTOK", link: "https://www.tiktok.com/@adeliaputri420" }
+        ];
+
+        // Elemen kontainer untuk tombol
+        const buttonContainer = document.getElementById("button-container");
+
+        // Tambahkan tombol ke kontainer
+        buttons.forEach(button => {
+            const a = document.createElement("a");
+            a.textContent = button.text;
+            a.href = button.link;
+            a.target = "_blank"; // Buka di tab baru
+            a.className = "button";
+            buttonContainer.appendChild(a);
+        });
+
         function createSnowflake() {
             const snowflake = document.createElement("div");
             const size = Math.random() * 5 + 5; // Ukuran antara 5-10px
