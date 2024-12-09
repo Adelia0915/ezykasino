@@ -35,7 +35,7 @@ Di EzyKasino, kami mengutamakan **pengalaman pengguna**, **keamanan**, dan **per
 
 ## Hubungi Kami
 
-Jika kamu memiliki pertanyaan atau umpan balik, jangan ragu untuk menghubungi kami di [support@ezykasino.com](mailto:support@ezykasino.com).
+Jika kamu memiliki pertanyaan atau umpan balik, jangan ragu untuk menghubungi kami di [support@ezykasino.com]([mailto:support@ezykasino.com](https://t.me/komunitasslotezykasino)).
 
 Ikuti kami di saluran media sosial untuk pembaruan, promosi, dan lainnya:
 - [Facebook](https://www.facebook.com/profile.php?id=61567630206383)
