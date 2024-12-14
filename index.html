@@ -12,11 +12,11 @@
 
     <link rel="icon" href="https://i.ibb.co/favicon.ico" type="image/x-icon">
 
-    <!-- Content Security Policy yang lebih ketat -->
+    <!-- Content Security Policy yang lebih longgar untuk mulai pengujian -->
     <meta http-equiv="Content-Security-Policy" content=" 
         default-src 'self';
-        script-src 'self' https://cdnjs.cloudflare.com https://wa.me https://www.bit.ly https://www.tiktok.com 'nonce-<random-nonce>';
-        style-src 'self' https://cdnjs.cloudflare.com 'nonce-<random-nonce>';
+        script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://wa.me https://www.bit.ly https://www.tiktok.com;
+        style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com;
         img-src 'self' https://i.ibb.co https://www.tiktok.com;
         connect-src 'self';
         font-src 'self' https://cdnjs.cloudflare.com;
@@ -24,7 +24,7 @@
         frame-src 'none';
     ">
 
-    <style nonce="<random-nonce>">
+    <style>
         /* Mengatur latar belakang dan konten */
         body {
             font-family: Arial, sans-serif;
@@ -100,7 +100,7 @@
 
     <div class="button-container" id="button-container"></div>
 
-    <script nonce="<random-nonce>">
+    <script>
         // Membuat tombol baru
         const buttons = [
             { text: "MAINKAN DISINI", link: "https://bit.ly/Terbaikmemang2025" },
