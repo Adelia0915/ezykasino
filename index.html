@@ -1,74 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Metadata Dasar -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ezykasino - Situs Terbaik 2025</title>
+    <title>Ezykasino - Situs Terbaik untuk Bonus dan Link Direct 2025</title>
 
+    <!-- Metadata SEO -->
     <meta name="description" content="Nikmati pengalaman bermain terbaik di Ezykasino dengan bonus besar, link direct, dan efek interaktif. Klik sekarang untuk main!">
     <meta name="keywords" content="Direct Link, Website Terbaik 2025, Tombol Akses, Efek Salju, Ezykasino">
     <meta name="author" content="Nama Kamu">
     <meta name="robots" content="index, follow">
 
+    <!-- Favicon -->
     <link rel="icon" href="https://i.ibb.co/favicon.ico" type="image/x-icon">
-
-    <!-- Content Security Policy -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.tiktok.com https://www.instagram.com https://wa.me https://bit.ly; style-src 'self'; img-src 'self' https://i.ibb.co https://bit.ly https://ezykasino.com; font-src 'self'; connect-src 'self';">
 
     <!-- Styling -->
     <style>
-        /* Mengatur latar belakang dan konten */
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             margin-top: 80px;
-            background-image: url('https://i.ibb.co/dDZtqWX/ec39e755-f1fb-4dca-91a7-d19e41a3d918.webp'); /* Pastikan gambar bisa dimuat */
+            background-image: url('https://i.ibb.co/dDZtqWX/ec39e755-f1fb-4dca-91a7-d19e41a3d918.webp'); /* Ganti URL jika perlu */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            color: #333;
-            overflow-x: hidden;
+            color: #333333;  /* Teks yang lebih gelap untuk kontras yang lebih tinggi */
         }
         h1 {
             font-size: 36px;
             margin-bottom: 20px;
-            color: #1a1a1a;
+            color: #1a1a1a;  /* Warna heading lebih gelap */
         }
         h2 {
             font-size: 28px;
             margin-bottom: 20px;
-            color: #444;
+            color: #444444; /* Warna heading kedua */
         }
         p {
             font-size: 18px;
             margin-bottom: 30px;
-            color: #1a1a1a;
+            color: #1a1a1a;  /* Warna teks paragraf lebih gelap */
         }
-        /* Button Styling */
         .button-container {
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 15px;
+            flex-direction: column; /* Atur tombol agar berjejer ke bawah */
+            align-items: center;    /* Pusatkan tombol */
+            gap: 15px;              /* Jarak antar tombol */
         }
         .button {
-            background-color: #FFD700;
-            color: #1a1a1a;
+            background-color: #FFD700; /* Emas untuk latar belakang tombol */
+            color: #1a1a1a; /* Teks gelap untuk kontras tinggi */
             padding: 15px 25px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
             font-size: 16px;
-            border: 2px solid #FFD700;
+            border: 2px solid #FFD700; /* Border emas */
             border-radius: 5px;
             cursor: pointer;
-            width: 200px;
+            width: 200px; /* Atur lebar tombol */
         }
         .button:hover {
-            background-color: #e6a900;
-            color: white;
+            background-color: #e6a900; /* Warna hover tombol lebih gelap */
+            color: white; /* Teks putih saat hover */
         }
-        /* Efek Salju */
         .snowflake {
             position: absolute;
             top: -10px;
@@ -83,17 +79,33 @@
                 opacity: 0;
             }
         }
+        @media (max-width: 768px) {
+            body {
+                padding: 20px;
+                margin-top: 50px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            p {
+                font-size: 14px;
+            }
+            .button {
+                font-size: 14px;
+                width: 150px;
+                padding: 10px 15px;
+            }
+        }
     </style>
 </head>
 <body>
     <h1>Selamat Datang Di Ezykasino, Website Terbaik 2025</h1>
     <h2>Kenapa Memilih Ezykasino?</h2>
     <p>Nikmati pengalaman bermain terbaik dengan berbagai fitur unggulan dan bonus besar hanya di sini!</p>
-
-    <div class="button-container" id="button-container"></div>
+    <div class="button-container" id="button-container"></div> <!-- Kontainer untuk tombol -->
 
     <script>
-        // Membuat tombol baru
+        // Array tombol baru
         const buttons = [
             { text: "MAINKAN DISINI", link: "https://bit.ly/Terbaikmemang2025" },
             { text: "WHATSAPP", link: "https://wa.me/+6281218357690" },
@@ -101,39 +113,40 @@
             { text: "TIKTOK", link: "https://www.tiktok.com/@adeliaputri420" }
         ];
 
+        // Elemen kontainer untuk tombol
         const buttonContainer = document.getElementById("button-container");
 
-        // Menambahkan tombol ke halaman
+        // Tambahkan tombol ke kontainer
         buttons.forEach(button => {
             const a = document.createElement("a");
             a.textContent = button.text;
             a.href = button.link;
-            a.target = "_blank";
+            a.target = "_blank"; // Buka di tab baru
             a.className = "button";
             buttonContainer.appendChild(a);
         });
 
-        // Efek Salju
         function createSnowflake() {
             const snowflake = document.createElement("div");
-            const size = Math.random() * 5 + 5; // Ukuran acak antara 5-10px
+            const size = Math.random() * 5 + 5; // Ukuran antara 5-10px
             const position = Math.random() * window.innerWidth;
 
             snowflake.classList.add("snowflake");
             snowflake.style.width = `${size}px`;
             snowflake.style.height = `${size}px`;
             snowflake.style.left = `${position}px`;
-            snowflake.style.animationDuration = `${Math.random() * 3 + 2}s`;
+            snowflake.style.animationDuration = `${Math.random() * 3 + 2}s`; // Durasi 2-5 detik
             snowflake.style.opacity = Math.random();
 
             document.body.appendChild(snowflake);
 
+            // Hapus elemen setelah animasi selesai
             setTimeout(() => {
                 snowflake.remove();
             }, 5000);
         }
 
-        // Membuat salju setiap 100ms
+        // Buat salju setiap 100ms
         setInterval(createSnowflake, 100);
     </script>
 </body>
