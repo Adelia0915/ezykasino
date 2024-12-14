@@ -13,19 +13,36 @@
     <link rel="icon" href="https://i.ibb.co/favicon.ico" type="image/x-icon">
 
     <!-- Content Security Policy -->
-    <meta http-equiv="Content-Security-Policy" content="
-        default-src 'self';
-        script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://www.bit.ly https://wa.me https://www.tiktok.com;
-        style-src 'self' 'unsafe-inline';
-        img-src 'self' https://i.ibb.co https://www.tiktok.com;
-        connect-src 'self';
-        font-src 'self';
-        object-src 'none';
-        frame-src 'none';
-    ">
+    <meta id="csp-meta" http-equiv="Content-Security-Policy" content="">
+    
+    <script>
+        // Fungsi untuk menghasilkan nilai nonce acak
+        function generateNonce() {
+            const array = new Uint32Array(10);
+            window.crypto.getRandomValues(array);
+            return array.join('');
+        }
+
+        // Ambil nilai nonce yang dihasilkan
+        const nonce = generateNonce();
+
+        // Update tag CSP dengan nonce yang baru
+        const cspMetaTag = document.getElementById("csp-meta");
+        cspMetaTag.content = `
+            default-src 'self'; 
+            script-src 'self' 'strict-dynamic' 'nonce-${nonce}' https://cdnjs.cloudflare.com https://www.bit.ly https://wa.me https://www.tiktok.com; 
+            style-src 'self' 'nonce-${nonce}'; 
+            img-src 'self' https://i.ibb.co https://www.tiktok.com; 
+            connect-src 'self'; 
+            font-src 'self'; 
+            object-src 'none'; 
+            frame-src 'none'; 
+            require-trusted-types-for 'script';
+        `;
+    </script>
 
     <!-- Styling -->
-    <style>
+    <style nonce="<random_value>">
         /* Mengatur latar belakang dan konten */
         body {
             font-family: Arial, sans-serif;
@@ -101,7 +118,7 @@
 
     <div class="button-container" id="button-container"></div>
 
-    <script>
+    <script nonce="<random_value>">
         // Membuat tombol baru
         const buttons = [
             { text: "MAINKAN DISINI", link: "https://bit.ly/Terbaikmemang2025" },
