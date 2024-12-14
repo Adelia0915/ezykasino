@@ -31,7 +31,7 @@
         cspMetaTag.content = `
             default-src 'self'; 
             script-src 'self' 'strict-dynamic' 'nonce-${nonce}' https://cdnjs.cloudflare.com https://www.bit.ly https://wa.me https://www.tiktok.com; 
-            style-src 'self' 'nonce-${nonce}'; 
+            style-src 'self' 'unsafe-inline' 'nonce-${nonce}'; 
             img-src 'self' https://i.ibb.co https://www.tiktok.com; 
             connect-src 'self'; 
             font-src 'self'; 
