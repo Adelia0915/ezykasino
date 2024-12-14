@@ -1,34 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Metadata Dasar -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ezykasino - Situs Terbaik untuk Bonus dan Link Direct 2025</title>
+    <title>Ezykasino - Situs Terbaik 2025</title>
 
-    <!-- Metadata SEO -->
     <meta name="description" content="Nikmati pengalaman bermain terbaik di Ezykasino dengan bonus besar, link direct, dan efek interaktif. Klik sekarang untuk main!">
     <meta name="keywords" content="Direct Link, Website Terbaik 2025, Tombol Akses, Efek Salju, Ezykasino">
     <meta name="author" content="Nama Kamu">
     <meta name="robots" content="index, follow">
 
-    <!-- Favicon -->
     <link rel="icon" href="https://i.ibb.co/favicon.ico" type="image/x-icon">
-
-    <!-- Content Security Policy (CSP) -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline';">
 
     <!-- Styling -->
     <style>
+        /* Mengatur latar belakang dan konten */
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             margin-top: 80px;
-            background-image: url('https://i.ibb.co/dDZtqWX/ec39e755-f1fb-4dca-91a7-d19e41a3d918.webp'); /* Ganti URL jika perlu */
+            background-image: url('https://i.ibb.co/dDZtqWX/ec39e755-f1fb-4dca-91a7-d19e41a3d918.webp'); /* Pastikan gambar bisa dimuat */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            color: #333333;
+            color: #333;
+            overflow-x: hidden;
         }
         h1 {
             font-size: 36px;
@@ -38,13 +34,14 @@
         h2 {
             font-size: 28px;
             margin-bottom: 20px;
-            color: #444444;
+            color: #444;
         }
         p {
             font-size: 18px;
             margin-bottom: 30px;
             color: #1a1a1a;
         }
+        /* Button Styling */
         .button-container {
             display: flex;
             flex-direction: column;
@@ -68,6 +65,7 @@
             background-color: #e6a900;
             color: white;
         }
+        /* Efek Salju */
         .snowflake {
             position: absolute;
             top: -10px;
@@ -82,33 +80,17 @@
                 opacity: 0;
             }
         }
-        @media (max-width: 768px) {
-            body {
-                padding: 20px;
-                margin-top: 50px;
-            }
-            h1 {
-                font-size: 24px;
-            }
-            p {
-                font-size: 14px;
-            }
-            .button {
-                font-size: 14px;
-                width: 150px;
-                padding: 10px 15px;
-            }
-        }
     </style>
 </head>
 <body>
     <h1>Selamat Datang Di Ezykasino, Website Terbaik 2025</h1>
     <h2>Kenapa Memilih Ezykasino?</h2>
     <p>Nikmati pengalaman bermain terbaik dengan berbagai fitur unggulan dan bonus besar hanya di sini!</p>
+
     <div class="button-container" id="button-container"></div>
 
     <script>
-        // Array tombol baru
+        // Membuat tombol baru
         const buttons = [
             { text: "MAINKAN DISINI", link: "https://bit.ly/Terbaikmemang2025" },
             { text: "WHATSAPP", link: "https://wa.me/+6281218357690" },
@@ -118,7 +100,7 @@
 
         const buttonContainer = document.getElementById("button-container");
 
-        // Tambahkan tombol ke kontainer
+        // Menambahkan tombol ke halaman
         buttons.forEach(button => {
             const a = document.createElement("a");
             a.textContent = button.text;
@@ -131,7 +113,7 @@
         // Efek Salju
         function createSnowflake() {
             const snowflake = document.createElement("div");
-            const size = Math.random() * 5 + 5; // Ukuran antara 5-10px
+            const size = Math.random() * 5 + 5; // Ukuran acak antara 5-10px
             const position = Math.random() * window.innerWidth;
 
             snowflake.classList.add("snowflake");
@@ -148,7 +130,7 @@
             }, 5000);
         }
 
-        // Buat salju setiap 100ms
+        // Membuat salju setiap 100ms
         setInterval(createSnowflake, 100);
     </script>
 </body>
