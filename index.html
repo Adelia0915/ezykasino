@@ -28,45 +28,45 @@
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            color: #333333;  /* Teks yang lebih gelap untuk kontras yang lebih tinggi */
+            color: #333333;
         }
         h1 {
             font-size: 36px;
             margin-bottom: 20px;
-            color: #1a1a1a;  /* Warna heading lebih gelap */
+            color: #1a1a1a;
         }
         h2 {
             font-size: 28px;
             margin-bottom: 20px;
-            color: #444444; /* Warna heading kedua */
+            color: #444444;
         }
         p {
             font-size: 18px;
             margin-bottom: 30px;
-            color: #1a1a1a;  /* Warna teks paragraf lebih gelap */
+            color: #1a1a1a;
         }
         .button-container {
             display: flex;
-            flex-direction: column; /* Atur tombol agar berjejer ke bawah */
-            align-items: center;    /* Pusatkan tombol */
-            gap: 15px;              /* Jarak antar tombol */
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
         }
         .button {
-            background-color: #FFD700; /* Emas untuk latar belakang tombol */
-            color: #1a1a1a; /* Teks gelap untuk kontras tinggi */
+            background-color: #FFD700;
+            color: #1a1a1a;
             padding: 15px 25px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
             font-size: 16px;
-            border: 2px solid #FFD700; /* Border emas */
+            border: 2px solid #FFD700;
             border-radius: 5px;
             cursor: pointer;
-            width: 200px; /* Atur lebar tombol */
+            width: 200px;
         }
         .button:hover {
-            background-color: #e6a900; /* Warna hover tombol lebih gelap */
-            color: white; /* Teks putih saat hover */
+            background-color: #e6a900;
+            color: white;
         }
         .snowflake {
             position: absolute;
@@ -105,7 +105,7 @@
     <h1>Selamat Datang Di Ezykasino, Website Terbaik 2025</h1>
     <h2>Kenapa Memilih Ezykasino?</h2>
     <p>Nikmati pengalaman bermain terbaik dengan berbagai fitur unggulan dan bonus besar hanya di sini!</p>
-    <div class="button-container" id="button-container"></div> <!-- Kontainer untuk tombol -->
+    <div class="button-container" id="button-container"></div>
 
     <script>
         // Array tombol baru
@@ -116,7 +116,6 @@
             { text: "TIKTOK", link: "https://www.tiktok.com/@adeliaputri420" }
         ];
 
-        // Elemen kontainer untuk tombol
         const buttonContainer = document.getElementById("button-container");
 
         // Tambahkan tombol ke kontainer
@@ -124,11 +123,12 @@
             const a = document.createElement("a");
             a.textContent = button.text;
             a.href = button.link;
-            a.target = "_blank"; // Buka di tab baru
+            a.target = "_blank";
             a.className = "button";
             buttonContainer.appendChild(a);
         });
 
+        // Efek Salju
         function createSnowflake() {
             const snowflake = document.createElement("div");
             const size = Math.random() * 5 + 5; // Ukuran antara 5-10px
@@ -138,12 +138,11 @@
             snowflake.style.width = `${size}px`;
             snowflake.style.height = `${size}px`;
             snowflake.style.left = `${position}px`;
-            snowflake.style.animationDuration = `${Math.random() * 3 + 2}s`; // Durasi 2-5 detik
+            snowflake.style.animationDuration = `${Math.random() * 3 + 2}s`;
             snowflake.style.opacity = Math.random();
 
             document.body.appendChild(snowflake);
 
-            // Hapus elemen setelah animasi selesai
             setTimeout(() => {
                 snowflake.remove();
             }, 5000);
