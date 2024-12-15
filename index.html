@@ -24,6 +24,10 @@
         frame-src 'none';
     ">
 
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+
     <!-- Styling -->
     <style>
         /* Mengatur latar belakang dan konten */
@@ -129,10 +133,10 @@
             const position = Math.random() * window.innerWidth;
 
             snowflake.classList.add("snowflake");
-            snowflake.style.width = ${size}px;
-            snowflake.style.height = ${size}px;
-            snowflake.style.left = ${position}px;
-            snowflake.style.animationDuration = ${Math.random() * 3 + 2}s;
+            snowflake.style.width = `${size}px`;
+            snowflake.style.height = `${size}px`;
+            snowflake.style.left = `${position}px`;
+            snowflake.style.animationDuration = `${Math.random() * 3 + 2}s`;
             snowflake.style.opacity = Math.random();
 
             document.body.appendChild(snowflake);
