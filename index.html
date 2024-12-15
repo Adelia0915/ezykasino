@@ -14,25 +14,19 @@
 
     <!-- Content Security Policy -->
     <meta http-equiv="Content-Security-Policy" content="
-        default-src 'self';
-        script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://www.bit.ly https://wa.me https://www.tiktok.com;
-        style-src 'self' 'unsafe-inline';
-        img-src 'self' https://i.ibb.co https://www.tiktok.com;
-        connect-src 'self';
-        font-src 'self';
-        object-src 'none';
-        frame-src 'none';
-        script-src-elem 'strict-dynamic';
+        default-src 'self'; 
+        script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com https://www.bit.ly https://wa.me https://www.tiktok.com 'strict-dynamic'; 
+        style-src 'self' 'unsafe-inline'; 
+        img-src 'self' https://i.ibb.co https://www.tiktok.com; 
+        connect-src 'self'; 
+        font-src 'self' https://fonts.gstatic.com; 
+        object-src 'none'; 
+        frame-src 'none'; 
+        form-action 'self';
+        upgrade-insecure-requests;
+        block-all-mixed-content;
+        base-uri 'self';
     ">
-
-    <!-- X-Frame-Options (Prevent Clickjacking) -->
-    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
-
-    <!-- X-Content-Type-Options (Prevent MIME sniffing) -->
-    <meta http-equiv="X-Content-Type-Options" content="nosniff">
-
-    <!-- Referrer Policy (Prevent sending referrer information when downgrading protocol) -->
-    <meta http-equiv="Referrer-Policy" content="no-referrer-when-downgrade">
 
     <!-- Styling -->
     <style>
@@ -111,7 +105,7 @@
 
     <div class="button-container" id="button-container"></div>
 
-    <script>
+    <script nonce="random-generated-value">
         // Membuat tombol baru
         const buttons = [
             { text: "MAINKAN DISINI", link: "https://bit.ly/Terbaikmemang2025" },
