@@ -12,20 +12,10 @@
 
     <link rel="icon" href="https://i.ibb.co/favicon.ico" type="image/x-icon">
 
-    <!-- Content Security Policy yang lebih ketat -->
-    <meta http-equiv="Content-Security-Policy" content=" 
-        default-src 'self';
-        script-src 'self' https://cdnjs.cloudflare.com https://wa.me https://www.bit.ly https://www.tiktok.com 'nonce-abc123';
-        style-src 'self' https://cdnjs.cloudflare.com 'nonce-abc123';
-        img-src 'self' https://i.ibb.co https://www.tiktok.com;
-        connect-src 'self';
-        font-src 'self' https://cdnjs.cloudflare.com;
-        object-src 'none';
-        frame-src 'none';
-    ">
-
-    <!-- Menggunakan nonce untuk tag style -->
-    <style nonce="abc123">
+    <!-- Content Security Policy dengan nonce -->
+    <meta id="csp-meta" http-equiv="Content-Security-Policy" content="">
+    
+    <style>
         /* Mengatur latar belakang dan konten */
         body {
             font-family: Arial, sans-serif;
@@ -101,50 +91,80 @@
 
     <div class="button-container" id="button-container"></div>
 
-    <!-- Menambahkan nonce pada script -->
-    <script nonce="abc123">
-        // Membuat tombol baru
-        const buttons = [
-            { text: "MAINKAN DISINI", link: "https://bit.ly/Terbaikmemang2025" },
-            { text: "WHATSAPP", link: "https://wa.me/+6281218357690" },
-            { text: "BONUS 100% BOLA", link: "https://bit.ly/49y6EWA" },
-            { text: "TIKTOK", link: "https://www.tiktok.com/@adeliaputri420" }
-        ];
-
-        const buttonContainer = document.getElementById("button-container");
-
-        // Menambahkan tombol ke halaman
-        buttons.forEach(button => {
-            const a = document.createElement("a");
-            a.textContent = button.text;
-            a.href = button.link;
-            a.target = "_blank";
-            a.className = "button";
-            buttonContainer.appendChild(a);
-        });
-
-        // Efek Salju
-        function createSnowflake() {
-            const snowflake = document.createElement("div");
-            const size = Math.random() * 5 + 5; // Ukuran acak antara 5-10px
-            const position = Math.random() * window.innerWidth;
-
-            snowflake.classList.add("snowflake");
-            snowflake.style.width = `${size}px`;
-            snowflake.style.height = `${size}px`;
-            snowflake.style.left = `${position}px`;
-            snowflake.style.animationDuration = `${Math.random() * 3 + 2}s`;
-            snowflake.style.opacity = Math.random();
-
-            document.body.appendChild(snowflake);
-
-            setTimeout(() => {
-                snowflake.remove();
-            }, 5000);
+    <script>
+        // Fungsi untuk menghasilkan nonce acak
+        function generateNonce() {
+            const array = new Uint8Array(16);
+            window.crypto.getRandomValues(array);
+            return array.map(byte => byte.toString(16).padStart(2, '0')).join('');
         }
 
-        // Membuat salju setiap 100ms
-        setInterval(createSnowflake, 100);
+        // Menghasilkan nonce dan memasukkannya ke dalam meta tag dan elemen script
+        const nonce = generateNonce();
+
+        // Menyisipkan nonce ke dalam Content Security Policy (CSP)
+        const cspMeta = document.getElementById('csp-meta');
+        cspMeta.content = `
+            default-src 'self';
+            script-src 'self' 'strict-dynamic' 'nonce-${nonce}' https://cdnjs.cloudflare.com https://www.bit.ly https://wa.me https://www.tiktok.com;
+            style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com;
+            img-src 'self' https://i.ibb.co https://www.tiktok.com;
+            connect-src 'self';
+            font-src 'self' https://cdnjs.cloudflare.com;
+            object-src 'none';
+            frame-src 'none';
+        `;
+
+        // Menyisipkan nonce ke dalam tag <script>
+        const script = document.createElement('script');
+        script.nonce = nonce;
+        script.innerHTML = `
+            // Membuat tombol baru
+            const buttons = [
+                { text: "MAINKAN DISINI", link: "https://bit.ly/Terbaikmemang2025" },
+                { text: "WHATSAPP", link: "https://wa.me/+6281218357690" },
+                { text: "BONUS 100% BOLA", link: "https://bit.ly/49y6EWA" },
+                { text: "TIKTOK", link: "https://www.tiktok.com/@adeliaputri420" }
+            ];
+
+            const buttonContainer = document.getElementById("button-container");
+
+            // Menambahkan tombol ke halaman
+            buttons.forEach(button => {
+                const a = document.createElement("a");
+                a.textContent = button.text;
+                a.href = button.link;
+                a.target = "_blank";
+                a.className = "button";
+                buttonContainer.appendChild(a);
+            });
+
+            // Efek Salju
+            function createSnowflake() {
+                const snowflake = document.createElement("div");
+                const size = Math.random() * 5 + 5; // Ukuran acak antara 5-10px
+                const position = Math.random() * window.innerWidth;
+
+                snowflake.classList.add("snowflake");
+                snowflake.style.width = \`\${size}px\`;
+                snowflake.style.height = \`\${size}px\`;
+                snowflake.style.left = \`\${position}px\`;
+                snowflake.style.animationDuration = \`\${Math.random() * 3 + 2}s\`;
+                snowflake.style.opacity = Math.random();
+
+                document.body.appendChild(snowflake);
+
+                setTimeout(() => {
+                    snowflake.remove();
+                }, 5000);
+            }
+
+            // Membuat salju setiap 100ms
+            setInterval(createSnowflake, 100);
+        `;
+        
+        // Menambahkan script ke halaman
+        document.body.appendChild(script);
     </script>
 </body>
 </html>
