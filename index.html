@@ -15,7 +15,7 @@
     <!-- Content Security Policy -->
     <meta http-equiv="Content-Security-Policy" content="
         default-src 'self';
-        script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://www.bit.ly https://wa.me https://www.tiktok.com;
+        script-src 'self' 'unsafe-inline' 'strict-dynamic' https://cdnjs.cloudflare.com https://www.bit.ly https://wa.me https://www.tiktok.com;
         style-src 'self' 'unsafe-inline';
         img-src 'self' https://i.ibb.co https://www.tiktok.com;
         connect-src 'self';
@@ -23,6 +23,7 @@
         object-src 'none';
         frame-src 'none';
     ">
+
     <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
@@ -104,7 +105,8 @@
 
     <div class="button-container" id="button-container"></div>
 
-    <script>
+    <!-- Script dengan nonce untuk CSP -->
+    <script nonce="random_nonce_value">
         // Membuat tombol baru
         const buttons = [
             { text: "MAINKAN DISINI", link: "https://bit.ly/Terbaikmemang2025" },
