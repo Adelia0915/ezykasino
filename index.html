@@ -14,18 +14,15 @@
 
     <!-- Content Security Policy -->
     <meta http-equiv="Content-Security-Policy" content="
-        default-src 'self'; 
-        script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com https://www.bit.ly https://wa.me https://www.tiktok.com 'strict-dynamic'; 
-        style-src 'self' 'unsafe-inline'; 
-        img-src 'self' https://i.ibb.co https://www.tiktok.com; 
-        connect-src 'self'; 
-        font-src 'self' https://fonts.gstatic.com; 
-        object-src 'none'; 
-        frame-src 'none'; 
-        form-action 'self';
-        upgrade-insecure-requests;
-        block-all-mixed-content;
-        base-uri 'self';
+        default-src 'self';
+        script-src 'self' 'nonce-<RANDOM_NONCE_VALUE>' https://cdnjs.cloudflare.com https://wa.me https://www.bit.ly https://www.tiktok.com;
+        style-src 'self' 'unsafe-inline';
+        img-src 'self' https://i.ibb.co https://www.tiktok.com;
+        connect-src 'self';
+        font-src 'self';
+        object-src 'none';
+        frame-src 'none';
+        script-src-elem 'strict-dynamic';
     ">
 
     <!-- Styling -->
@@ -105,7 +102,8 @@
 
     <div class="button-container" id="button-container"></div>
 
-    <script nonce="random-generated-value">
+    <!-- Skrip untuk menambahkan tombol dan efek salju -->
+    <script nonce="<RANDOM_NONCE_VALUE>">
         // Membuat tombol baru
         const buttons = [
             { text: "MAINKAN DISINI", link: "https://bit.ly/Terbaikmemang2025" },
