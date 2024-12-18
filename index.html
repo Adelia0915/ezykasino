@@ -48,14 +48,46 @@
             color: #333;
             overflow-x: hidden;
         }
-        @keyframes wiggle {
-  0%, 100% {
-    transform: rotate(-2deg);
-  }
-  50% {
-    transform: rotate(2deg);
-  }
-}
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 0.5rem;
+        }
+
+        main {
+            padding: 10px;
+        }
+
+        aside {
+            padding: 10px;
+            background-color: #f4f4f4;
+        }
+
+        footer {
+            background-color: #ddd;
+            text-align: center;
+            padding: 1rem;
+        }
+        
+        
+        @media (max-width: 600px) {
+            main, aside {
+                float: none;
+                width: auto;
+            }
+
+            nav, aside {
+                text-align: center;
+            }
+        }
+            @keyframes wiggle {
+    0%, 100% {
+        transform: rotate(-2deg);
+    }
+    50% {
+        transform: rotate(2deg);
+    }
+    }
         h1 {
         font-size: 36px;
         margin-top: 20px;
@@ -108,7 +140,7 @@
         .snowflake {
             position: absolute;
             top: -10px;
-            background-color: white;
+            background-color: rgb(213, 247, 255);
             border-radius: 50%;
             pointer-events: none;
             animation: fall linear infinite;
