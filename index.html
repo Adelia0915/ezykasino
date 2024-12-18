@@ -6,7 +6,7 @@
     <title>Ezykasino - Situs Terbaik 2025</title>
 
     <meta name="description" content="Nikmati pengalaman bermain terbaik di Ezykasino dengan bonus besar, link direct, dan efek interaktif. Klik sekarang untuk main!">
-    <meta name="keywords" content="Direct Link, Website Terbaik 2025, Tombol Akses, Efek Petir, Ezykasino">
+    <meta name="keywords" content="Direct Link, Website Terbaik 2025, Tombol Akses, Efek Salju, Ezykasino">
     <meta name="author" content="Nama Kamu">
     <meta name="robots" content="index, follow">
 
@@ -42,7 +42,7 @@
             text-align: center;
             margin-top: 80px;
             background-image: url('https://i.ibb.co/Yf7bhw5/BG-2k.webp');
-            background-size: cover;
+            background-size: cover;  /* Adjusted to cover the entire background */;
             background-position: top;
             background-repeat: no-repeat;
             background-color: #210d09;
@@ -69,7 +69,8 @@
             text-align: center;
             padding: 1rem;
         }
-
+        
+        
         @media (max-width: 600px) {
             main, aside {
                 float: none;
@@ -80,24 +81,23 @@
                 text-align: center;
             }
         }
-        
-        @keyframes lightning {
-            0%, 100% {
-                opacity: 0;
-            }
-            50% {
-                opacity: 1;
-            }
-        }
-
+            @keyframes wiggle {
+    0%, 100% {
+        transform: rotate(-2deg);
+    }
+    50% {
+        transform: rotate(2deg);
+    }
+    }
         h1 {
-            font-size: 36px;
-            margin-top: 20px;
-            margin-bottom: 5px;
-            background: -webkit-linear-gradient(#fff449, #c8650e);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            text-shadow: 0 0 10px #c8650e, 0 0 35px #c8650e;
+        font-size: 36px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        background: -webkit-linear-gradient(#fff449, #c8650e);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 0 0 10px #c8650e, 0 0 35px #c8650e; 
+        animation: wiggle 2s ease infinite;
         }
         h2 {
             font-size: 28px;
@@ -137,17 +137,20 @@
             background-color: #e6a900;
             color: white;
         }
-        /* Efek Petir */
-        .lightning {
+        /* Efek Salju */
+        .snowflake {
             position: absolute;
-            top: -100px;
-            left: 50%;
-            width: 100px;
-            height: 200px;
-            background-color: rgba(255, 255, 255, 0.8);
-            box-shadow: 0 0 30px rgba(255, 255, 255, 1);
-            opacity: 0;
-            animation: lightning 0.5s infinite;
+            top: -10px;
+            background-color: rgb(213, 247, 255);
+            border-radius: 50%;
+            pointer-events: none;
+            animation: fall linear infinite;
+        }
+        @keyframes fall {
+            to {
+                transform: translateY(100vh);
+                opacity: 0;
+            }
         }
     </style>
 </head>
@@ -179,20 +182,28 @@
             buttonContainer.appendChild(a);
         });
 
-        // Efek Petir
-        function createLightning() {
-            const lightning = document.createElement("div");
-            lightning.classList.add("lightning");
-            lightning.style.left = `${Math.random() * window.innerWidth}px`;
-            document.body.appendChild(lightning);
+        // Efek Salju
+        function createSnowflake() {
+            const snowflake = document.createElement("div");
+            const size = Math.random() * 5 + 5; // Ukuran acak antara 5-10px
+            const position = Math.random() * window.innerWidth;
+
+            snowflake.classList.add("snowflake");
+            snowflake.style.width = `${size}px`;
+            snowflake.style.height = `${size}px`;
+            snowflake.style.left = `${position}px`;
+            snowflake.style.animationDuration = `${Math.random() * 3 + 2}s`;
+            snowflake.style.opacity = Math.random();
+
+            document.body.appendChild(snowflake);
 
             setTimeout(() => {
-                lightning.remove();
-            }, 500);
+                snowflake.remove();
+            }, 5000);
         }
 
-        // Membuat petir setiap 2 detik
-        setInterval(createLightning, 2000);
+        // Membuat salju setiap 100ms
+        setInterval(createSnowflake, 100);
     </script>
 </body>
 </html>
