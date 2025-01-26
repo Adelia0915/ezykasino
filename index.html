@@ -29,7 +29,7 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             text-shadow: 0 0 10px #c8650e, 0 0 35px #c8650e; 
-            font-family: "gilroy";
+            font-family: "gilroy", sans-serif;
         }
 
         h2, p {
@@ -51,14 +51,16 @@
             text-decoration: none;
             font-size: 16px;
             border: 2px solid #FFD700;
-            border-radius: 5px;
+            border-radius: 8px;
             cursor: pointer;
             width: 200px;
+            transition: all 0.3s ease;
         }
 
         .button:hover {
             background-color: #e6a900;
             color: white;
+            transform: scale(1.1);
         }
 
         /* Efek Angpao */
@@ -71,7 +73,7 @@
             border: 2px solid #ffd700;
             border-radius: 5px;
             animation: drop linear infinite;
-            background-image: url('https://i.ibb.co/HBFw6YJ/angpao.png');
+            background-image: url('https://i.ibb.co/YLkwFj2/ssss.png');
             background-size: cover;
         }
 
@@ -79,6 +81,17 @@
             to {
                 transform: translateY(100vh) rotate(360deg);
                 opacity: 0;
+            }
+        }
+
+        /* Responsiveness */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 28px;
+            }
+            .button {
+                font-size: 14px;
+                width: 180px;
             }
         }
     </style>
@@ -107,11 +120,17 @@
             a.href = button.link;
             a.target = "_blank";
             a.className = "button";
+            a.setAttribute("aria-label", `Buka tautan ${button.text}`);
             buttonContainer.appendChild(a);
         });
 
-        // Efek Angpao
+        // Efek Angpao dengan Batasan
+        const MAX_ANGPAOS = 100; // Maksimal angpao di layar
+        let currentAngpaos = 0;
+
         function createAngpao() {
+            if (currentAngpaos >= MAX_ANGPAOS) return;
+
             const angpao = document.createElement("div");
             const size = Math.random() * 20 + 30; // Ukuran acak antara 30-50px
             const position = Math.random() * window.innerWidth;
@@ -125,9 +144,11 @@
             angpao.style.opacity = Math.random();
 
             document.body.appendChild(angpao);
+            currentAngpaos++;
 
             setTimeout(() => {
                 angpao.remove();
+                currentAngpaos--;
             }, duration * 1000);
         }
 
