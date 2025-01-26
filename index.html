@@ -18,6 +18,7 @@
             background-position: top;
             background-repeat: no-repeat;
             background-color: #210d09;
+            background-attachment: fixed; /* Mencegah background bergerak */
             color: #333;
             overflow-x: hidden;
         }
@@ -75,9 +76,14 @@
             animation: drop linear infinite;
             background-image: url('https://i.ibb.co/YLkwFj2/ssss.png');
             background-size: cover;
+            will-change: transform, opacity; /* Optimalkan animasi */
         }
 
         @keyframes drop {
+            from {
+                transform: translateY(-10px) rotate(0deg);
+                opacity: 1;
+            }
             to {
                 transform: translateY(100vh) rotate(360deg);
                 opacity: 0;
